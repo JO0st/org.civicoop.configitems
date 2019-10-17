@@ -50,6 +50,7 @@ class CRM_Civiconfig_Config {
       'CaseType',
       'CustomGroup',
       'SepaCreditor',
+      'civiRuleRule'
       // CustomGroup as last one because it might need one of the previous ones (option group, relationship types)
       // DO NOT INCLUDE CustomField, because custom fields are updated together with custom groups.
     );
